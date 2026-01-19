@@ -1,9 +1,15 @@
-import UnauthenticatedView from '@/components/unauthenticated-vew'
-import React from 'react'
+import ProjectView from "@/components/features/projects/ProjectView"
+import { SignInButton } from "@clerk/nextjs"
+
 
 const page = () => {
   return (
-    <UnauthenticatedView/>
+    <>
+    <SignInButton>
+      sign-in
+    </SignInButton>
+    <ProjectView/>
+    </>
   )
 }
 
