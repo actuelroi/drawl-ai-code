@@ -2,7 +2,7 @@
 
 
 
-import { useProjectsPartial } from "@/app/hooks/use-projects"
+import { useProjectsPartial } from "@/hooks/use-projects"
 import { Spinner } from "@/components/ui/spinner"
 import ProjectItem, { formatTimestamp, getProjectionIcon } from "./ProjectItem"
 import { Doc } from "@/convex/_generated/dataModel"

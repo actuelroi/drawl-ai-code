@@ -1,4 +1,4 @@
-import { useProjects } from "@/app/hooks/use-projects";
+import { useProjects } from "@/hooks/use-projects";
 import { Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
 
 import { useRouter } from "next/navigation";
